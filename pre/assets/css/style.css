@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@media screen and (min-width: 200px) and (max-width: 540px) {
+    
+    div#pt1 {
+        margin-top: 80px !important;
+        margin-bottom: 100px;
+    }
+
+    div#pt2 {
+        font-size: 10px !important;
+    }
+    
+    a.botao-cta {
+        width: 100%;
+        font-size: 15px;
+        margin-top: 35px !important;
+        padding: 10px;
+    }
+
+    img.img-pre {
+        width: 100%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none Imp !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+div#pt1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+div#pt2 {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Inter';
+    color: #ffffff !important;
+    opacity: 80%;
+}
+
+.botao-cta,
+.botao-cta:hover {
+    display: block;
+    margin-top: 35px !important;
+    margin: 0 auto;
+    width: 60%;
+    padding: 18px;
+    background-color: #ff0000;
+    font-family: 'Inter';
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px #ff000083;
+}
+
+.img-pre {
+    width: 80%;
+    border-radius: 15px;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.fe-pulse {
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
